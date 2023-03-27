@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80%;
+    width: 60%;
+    margin: 15px auto auto auto;
+    border-radius: 2%;
+}
+
+header {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-top: 90px;
+}
+
+h2 {
+    color: chartreuse;
+}
+
+header input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+header>div {
+    background-color: chartreuse;
+    height: 40px;
+    width: auto;
+}
+
+main {
+    padding-left: 5%;
+}
+
+form {
+    margin: 50px;
+}
+
+form input {
+    margin: 5px 5px 0px 5px;
+    display: inline-block;
+}
+
+
+#possessore {
+    color: white;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+}
+
+form span {
+    color: white;
+    font-size: 0.7em;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin: 5px 0px 3px 0px;
+}
+
+#indirizzo:before {
+    content: "\27FC";
+    color: white;
+    margin: 3px;
+}
+
+.statoCarica {
+    display: block;
+    height: 20px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10%;
+}
+
+.statoCarica~.statoCarica {
+    display: block;
+    height: 20px;
+    width: 450px;
+    background-color: green;
+    border-radius: 10%;
+}
+.statoCarica:last-of-type{
+    display: block;
+    height: 20px;
+    width: 50px;
+    background-color: red;
+    border-radius: 10%;
+}
